@@ -31,7 +31,7 @@ module.exports = {
         ],
         sidebar: {
           '/git/': ['/git/git-cli.md', '/git/link-remote.md'],
-          linux: [
+          '/linux/': [
             '/linux/crontab.md',
             '/linux/install-redis.md',
             '/linux/linux-cli.md'
