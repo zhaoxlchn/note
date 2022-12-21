@@ -19,15 +19,23 @@ module.exports = {
     sidebarDepth: 3,
     locales: {
       '/': {
-        label: '哈哈哈',
         nav: [
           {
             text: 'Git',
             link: '/git/git-cli.md'
+          },
+          {
+            text: 'Linux',
+            link: '/linux/crontab.md'
           }
         ],
         sidebar: {
-          '/git/': ['/git/git-cli.md', '/git/link-remote.md']
+          '/git/': ['/git/git-cli.md', '/git/link-remote.md'],
+          linux: [
+            '/linux/crontab.md',
+            '/linux/install-redis.md',
+            '/linux/linux-cli.md'
+          ]
         }
       }
     }
