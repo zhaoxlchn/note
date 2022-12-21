@@ -27,6 +27,18 @@ module.exports = {
           {
             text: 'Linux',
             link: '/linux/crontab.md'
+          },
+          {
+            text: 'Mysql',
+            link: '/mysql/mysql-cli.md'
+          },
+          {
+            text: 'Windows',
+            link: '/windows/cli.md'
+          },
+          {
+            text: 'docker',
+            link: '/docker/cli.md'
           }
         ],
         sidebar: {
@@ -34,8 +46,13 @@ module.exports = {
           '/linux/': [
             '/linux/crontab.md',
             '/linux/install-redis.md',
-            '/linux/linux-cli.md'
-          ]
+            '/linux/linux-cli.md',
+            '/linux/centos-install-mysql.md',
+            '/linux/centos-cli.md'
+          ],
+          '/mysql/': ['/mysql/mysql-cli.md', '/mysql/mysql-query.md'],
+          '/windows/': ['/windows/cli.md'],
+          '/docker/': ['/docker/cli.md']
         }
       }
     }
