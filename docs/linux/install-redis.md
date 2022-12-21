@@ -1,8 +1,8 @@
 # 安装 redis 服务
 
-### 1、安装 redis 服务
+## 1、安装 redis 服务
 
-##### 1、安装命令
+### 1、安装命令
 
 ```shell
 wget http://download.redis.io/releases/redis-5.0.3.tar.gz && tar -zxf redis-5.0.3.tar.gz //下载源码并解压
@@ -16,7 +16,7 @@ make install PREFIX=/usr/local/redis //安装到指定目录
 cp redis.conf /usr/local/redis/bin/ //复制生成的配置文件到应用目录
 ```
 
-##### 2、修改配置文件、并复制到安装目录
+### 2、修改配置文件、并复制到安装目录
 
 ```
 1、以守护进程运行
@@ -27,7 +27,7 @@ cp redis.conf /usr/local/redis/bin/ //复制生成的配置文件到应用目录
     requirepass 123456
 ```
 
-##### 3、管理命令（命令不存在时到安装目录执行）
+### 3、管理命令（命令不存在时到安装目录执行）
 
 ```
 1、开启服务
@@ -37,7 +37,7 @@ cp redis.conf /usr/local/redis/bin/ //复制生成的配置文件到应用目录
     redis-cli -a 123456
 ```
 
-### 2、安装 redis 扩展
+## 2、安装 redis 扩展
 
 ```shell
 wget http://pecl.php.net/get/redis-5.3.2.tgz && tar -zxf redis-5.3.2.tgz && cd redis-5.3.2/
