@@ -7,11 +7,11 @@ jobs:
       - name: Checkout
         uses: actions/checkout@master
 
-      - name: vuepress-deploy
-        uses: jenkey2011/vuepress-deploy@master
+      - name: vitepress-deploy
+        uses: zhaoxlchn/note@master
         env:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           TARGET_REPO: zhaoxlchn/note
           TARGET_BRANCH: website_html
           BUILD_SCRIPT: yarn && yarn docs:build
-          BUILD_DIR: docs/.vuepress/dist
+          BUILD_DIR: docs/.vitepress/dist
