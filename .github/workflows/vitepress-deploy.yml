@@ -8,7 +8,7 @@ jobs:
         uses: actions/checkout@master
 
       - name: vitepress-deploy
-        uses: jenkey2011/vuepress-deploy@master
+        uses: zhaoxlchn/note@master
         env:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           TARGET_REPO: zhaoxlchn/note
