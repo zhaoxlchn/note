@@ -5,15 +5,15 @@
 ### 1、安装命令
 
 ```shell
-wget http://download.redis.io/releases/redis-5.0.3.tar.gz && tar -zxf redis-5.0.3.tar.gz //下载源码并解压
+wget http://download.redis.io/releases/redis-5.0.3.tar.gz && tar -zxf redis-5.0.3.tar.gz #下载源码并解压
 
-cd redis-5.0.3 //进入目录
+cd redis-5.0.3 #进入目录
 
-make //编译
+make #编译
 
-make install PREFIX=/usr/local/redis //安装到指定目录
+make install PREFIX=/usr/local/redis #安装到指定目录
 
-cp redis.conf /usr/local/redis/bin/ //复制生成的配置文件到应用目录
+cp redis.conf /usr/local/redis/bin/ #复制生成的配置文件到应用目录
 ```
 
 ### 2、修改配置文件、并复制到安装目录
@@ -48,7 +48,7 @@ phpize
 
 make && make install
 
-vim /usr/local/php/etc/php.ini //修改配置文件，加入扩展
+vim /usr/local/php/etc/php.ini #修改配置文件，加入扩展
 extension = redis
 
 php -m

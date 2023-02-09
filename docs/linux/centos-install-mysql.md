@@ -2,10 +2,12 @@
 
 ## 【CentOS 安装 MySQL】
 
-1. wget http://dev.mysql.com/get/mysql57-community-release-el7-11.noarch.rpm
-2. rpm -ivh mysql57-community-release-el7-11.noarch.rpm
-3. yum install mysql-community-server
-   > 备注：会自动安装最新的 mysql5.7
+```cmd
+wget http://dev.mysql.com/get/mysql57-community-release-el7-11.noarch.rpm
+rpm -ivh mysql57-community-release-el7-11.noarch.rpm
+yum install mysql-community-server
+```
+> 备注：会自动安装最新的 mysql5.7
 
 ---
 

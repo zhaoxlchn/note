@@ -2,7 +2,7 @@
 
 ##### 1、MySQL 服务启动与关闭
 
-```
+```shell
 service mysqld start
 service mysqld stop
 ```

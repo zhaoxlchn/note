@@ -2,11 +2,11 @@
 
 ## 一、crontab 说明
 
-```
-crontab [-u username]　　　　//省略用户表表示操作当前用户的crontab
-    -e      (编辑工作表)
-    -l      (列出工作表里的命令)
-    -r      (删除工作作)
+```shell
+crontab [-u username]   #省略用户表表示操作当前用户的crontab
+    -e      #(编辑工作表)
+    -l      #(列出工作表里的命令)
+    -r      #(删除工作作)
 ```
 
 ## 二、执行 crontab -e 插入任务
@@ -20,6 +20,6 @@ crontab [-u username]　　　　//省略用户表表示操作当前用户的cro
 
 ## 三、重新加载配置文件以及重启 crontab
 
-```
+```shell
 service crond status|stop|start|reload
 ```
