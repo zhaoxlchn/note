@@ -51,8 +51,8 @@ export default {
                     text: 'Mysql',
                     collapsed: false,
                     items: [
-                        {text: 'git 常用命令', link: '/mysql/mysql-cli.md'},
-                        {text: '创建一个与远程关联的 git 库', link: '/mysql/mysql-query.md'}
+                        {text: 'MySQL 服务相关内容', link: '/mysql/mysql-cli.md'},
+                        {text: 'MySQL 的一些查询小方法', link: '/mysql/mysql-query.md'}
                     ]
                 }
             ],
