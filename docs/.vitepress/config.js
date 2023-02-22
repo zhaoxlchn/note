@@ -74,6 +74,10 @@ export default {
                     ]
                 }
             ],
+        },
+        footer: {
+            message: '',
+            copyright: '<a href="https://beian.miit.gov.cn/" target="_blank">蜀ICP备16014678号</a>'
         }
     },
     markdown: {
