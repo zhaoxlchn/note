@@ -1,8 +1,12 @@
+let base = process.env.BASE_PATH
+if(base === undefined){
+    base = '/note/';
+}
 export default {
     title: '笔记',
     description: '个人笔记',
     lastUpdated: true,
-    base: '/note/',
+    base: base,
     themeConfig: {
         outline: [2, 5],
         outlineTitle: '本页内容',

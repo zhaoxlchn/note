@@ -4,6 +4,7 @@ ADD package.json /wwwhtml
 ADD package-lock.json /wwwhtml
 WORKDIR /wwwhtml
 RUN npm install
+ENV BASE_PATH ""
 RUN npm run docs:build
 #COPY --from=builder /wwwhtml/docs/.vitepress/dist /www/note
 #COPY --from=builder /wwwhtml/docs/.vitepress/dist /www
