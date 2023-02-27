@@ -13,6 +13,7 @@ export default {
         lastUpdatedText: 'Updated Date',
         nav: [
             {text: 'Git', link: '/git/git-cli.md'},
+            {text: 'Golang', link: '/go/gorm-gen.md'},
             {text: 'Linux', link: '/linux/crontab.md'},
             {text: 'Mysql', link: '/mysql/mysql-cli.md'},
             {text: 'Windows', link: '/windows/cli.md'},
@@ -34,6 +35,15 @@ export default {
                     items: [
                         {text: 'git 常用命令', link: '/git/git-cli.md'},
                         {text: '创建一个与远程关联的 git 库', link: '/git/link-remote.md'}
+                    ]
+                }
+            ],
+            '/go/': [
+                {
+                    text: 'Golang',
+                    collapsed: false,
+                    items: [
+                        {text: 'GORM/GEN', link: '/go/gorm-gen.md'},
                     ]
                 }
             ],
