@@ -6,6 +6,12 @@ export default {
     title: '笔记',
     description: '个人笔记',
     lastUpdated: true,
+    head: [
+        [
+            'link',
+            { rel: 'icon', href: base + 'assets/images/logo.png'}
+        ]
+    ],
     base: base,
     themeConfig: {
         outline: [2, 5],
