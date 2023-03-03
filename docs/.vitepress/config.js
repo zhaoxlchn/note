@@ -66,7 +66,8 @@ export default {
                     collapsed: false,
                     items: [
                         {text: 'MySQL 服务相关内容', link: '/mysql/mysql-cli.md'},
-                        {text: 'MySQL 的一些查询小方法', link: '/mysql/mysql-query.md'}
+                        {text: 'MySQL 的一些查询小方法', link: '/mysql/mysql-query.md'},
+                        {text: 'MySQL 索引失效', link: '/mysql/mysql-index.md'},
                     ]
                 }
             ],
