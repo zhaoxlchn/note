@@ -1,0 +1,1 @@
+import{_ as a,c as e,o as s,a as n}from"./app.bff02bbe.js";const _=JSON.parse('{"title":"创建一个与远程关联的 git 库","description":"","frontmatter":{},"headers":[],"relativePath":"git/link-remote.md","lastUpdated":null}'),r={name:"git/link-remote.md"},t=n("",12),i=[t];function o(l,c,p,d,h,m){return s(),e("div",null,i)}const b=a(r,[["render",o]]);export{_ as __pageData,b as default};

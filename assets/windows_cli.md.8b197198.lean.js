@@ -1,0 +1,1 @@
+import{_ as s,c as a,o as e,a as n}from"./app.bff02bbe.js";const u=JSON.parse('{"title":"Windows DOS 命令小技巧","description":"","frontmatter":{},"headers":[],"relativePath":"windows/cli.md","lastUpdated":null}'),t={name:"windows/cli.md"},l=n("",5),o=[l];function r(p,c,i,d,_,h){return e(),a("div",null,o)}const C=s(t,[["render",r]]);export{u as __pageData,C as default};
